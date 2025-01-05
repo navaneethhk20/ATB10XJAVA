@@ -5,5 +5,7 @@ public class Lab008_PrintlnvsPrint {
         System.out.println("Hello world");
         System.out.print("Hello world");
         System.out.print("Hello world");
+
+
     }
 }
