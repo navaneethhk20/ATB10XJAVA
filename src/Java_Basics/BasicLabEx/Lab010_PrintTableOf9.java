@@ -1,4 +1,4 @@
-package Java_Basics;
+package Java_Basics.BasicLabEx;
 
 public class Lab010_PrintTableOf9 {
     public static void main(String[] args) {

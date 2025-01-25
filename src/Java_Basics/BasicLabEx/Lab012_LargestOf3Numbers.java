@@ -1,4 +1,4 @@
-package Java_Basics;
+package Java_Basics.BasicLabEx;
 
 public class Lab012_LargestOf3Numbers {
     public static void main(String[] args) {

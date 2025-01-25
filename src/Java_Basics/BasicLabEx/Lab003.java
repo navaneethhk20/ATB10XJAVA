@@ -1,4 +1,4 @@
-package Java_Basics;
+package Java_Basics.BasicLabEx;
 
 public class Lab003 {
     //Can we have two main functions - yes, we can

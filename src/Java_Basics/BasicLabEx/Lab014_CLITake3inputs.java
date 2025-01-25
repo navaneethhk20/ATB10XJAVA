@@ -1,4 +1,4 @@
-package Java_Basics;
+package Java_Basics.BasicLabEx;
 
 public class Lab014_CLITake3inputs {
     public static void main(String[] args) {
@@ -13,6 +13,7 @@ public class Lab014_CLITake3inputs {
         System.out.println(name);
         System.out.println(age1);
         System.out.println(salary2);
+
 
     }
 }
