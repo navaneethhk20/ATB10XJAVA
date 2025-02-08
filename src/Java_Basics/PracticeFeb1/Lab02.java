@@ -13,9 +13,25 @@ public class Lab02 {
 //        if you input 1000 days, the output of the program would be:  2 years, 9 months, and 0 days.
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of days");
-        int days = sc.nextInt();
+        int totalDays = sc.nextInt();
 
-      //int  365 days = 1year;
+                int years = totalDays / 365;
+        System.out.println(years);
+                // Calculate remaining days after subtracting years
+                int remainingDaysAfterYears = totalDays % 365;
+        System.out.println(remainingDaysAfterYears);
+                // Calculate months from remaining days
+                int months = remainingDaysAfterYears / 30;
+        System.out.println(months);
+                // Calculate remaining days after subtracting months
+                int days = remainingDaysAfterYears % 30;
+        System.out.println(days);
+                // Output the result
+                System.out.println(totalDays + " days is equivalent to: ");
+                System.out.println(years + " years, " + months + " months, and " + days + " days.");
 
-    }
+                // Close the scanner
+                sc.close();
+            }
+
 }
