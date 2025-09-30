@@ -10,5 +10,6 @@ public class Lab01 {
         System.out.println(s1.concat("World"));
         System.out.println(s2.toLowerCase());
         System.out.println(s2.toUpperCase());
+
     }
 }
