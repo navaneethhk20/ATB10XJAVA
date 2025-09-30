@@ -12,5 +12,6 @@ public class Lab01 {
         System.out.println(s2.toUpperCase());
 
 
+
     }
 }
